@@ -1,0 +1,80 @@
+@import url('global.css');
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    text-align: center
+}
+
+
+main {
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+
+#loginForm {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 3px 4px 12px rgba(0, 0, 0, 0.4);
+    max-width: 400px;
+    width: 100%;
+    margin: 20px auto;
+    background-color: var(--bg-color);
+    
+}
+
+#loginForm input,
+#loginForm button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+
+#loginButton {
+    background:var(--btn);
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    color: var(--text-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: clamp(12px, 1.5vw + 1rem, 16px);
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2)
+}
+
+#loginButton:hover{
+    box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+h1, h2, h3{ 
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+
+@media only screen and (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    #loginForm {
+        padding: 15px;
+    }
+
+    header,
+    nav,
+    main,
+    footer {
+        padding: 5px;
+    }
+
+
+}

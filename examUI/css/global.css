@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*Source: 
+Google,"Google Fonts,"[Online]. Available: https: //fonts.google.com/. [Accessed: November 31, 2024].https: */
+
+:root {
+    --primary-blue: #4A90E2;
+    --dark-blue: #1A6FB9;
+
+    --primary-purple: #7B61FF;
+    --dark-purple: #5235B1;
+
+    --primary-green: #34D399;
+    --dark-green: #23A379;
+
+    --modal-bg: linear-gradient(140deg, #93cff7, #79c7e5);
+   
+    --nav-bar: linear-gradient(90deg,#73c2f0, #5AA9F7, #52dcffeb,#67E6B3, #4be09fe7);
+    --bg-color: #d7e2f6;
+    
+    --btn: linear-gradient(145deg, hwb(199 49% 4%), #7fd9e3, #87dab5e4, #a6d8c9);
+    --back-icon: #333;
+    --shadow: rgba(0, 0, 0, 0.3);
+    --text-color: #342b2d;
+    --overlay:linear-gradient(140deg, #89cbf7,#b7a5ff); 
+   
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background: var(--bg-color);
+}
+#alertContainer {
+    position: fixed;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1060;
+
+    width: 80%;
+    max-width: 400px;
+}
+h1 {
+    font-weight: 500;
+    font-style: normal;
+    color: var(--text-color);
+}
+h2 {
+    font-weight: 400;
+    font-style: normal;
+    color: var(--text-color);
+}
+
+a,
+p,
+input,h6,h4,h3,h5,
+textarea,
+button, .cancel-button,
+span {
+    font-weight: 300;
+    font-style: normal;
+    color: var(--text-color);
+}
+
+.app-bar {
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5px 10px;
+    background-color: #f4f3f8;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.app-bar h4 {
+    font-size: 1.2rem;
+    margin: 0;
+    flex-grow: 1;
+    font-weight: 300;
+    font-style: normal;
+    color: var(--text-color);
+
+}
+
+
+.back-button {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 0px; 
+    margin-right: 10px;
+    color:var(--back-icon);
+}
+
+#logoutButton {
+    background: var(--btn);
+    border: none;
+    color: var(--text-color);
+    font-size: clamp(14px, 1.5vw + 1rem, 16px);
+    cursor: pointer;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+    min-width: 120px;
+    max-width: 300px;
+    width: auto;
+    border-radius: 5px;
+
+
+}
+
+#logoutButton:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
