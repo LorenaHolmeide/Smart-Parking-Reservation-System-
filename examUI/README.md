@@ -54,11 +54,16 @@ In line with the MH130 curriculum, the prototype focuses on bridging:
    From terminal:
 
    - MAC:
+     
      cd /path/pages/index.html
+
      open Index.html
 
    - Windows:
+     
      cd C:\path\pages\index.html
+   
      start Index.html
+     
 
 3. Ensure an internet connection so that external libraries like Leaflet load correctly.
