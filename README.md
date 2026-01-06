@@ -3,7 +3,7 @@
 **This project was submitted as part of the individual home exam for MH130 - Programming of User Interfaces and Architecture, Fall 2024.**
 **Achieved Grade: A**
 
-# Smart Parking Reservation System - Majorstuen (MH130)
+# Smart Parking Reservation System - Majorstuen
 
 This project is a prototype of an interactive parking reservation system developed for the Oslo municipality. The system is designed to address challenges with unpredictable parking in the Majorstuen area by providing real-time availability and seamless booking.
 
@@ -56,17 +56,15 @@ In line with the MH130 curriculum, the prototype focuses on bridging:
    From terminal:
 
    - MAC:
-     
+
      cd /path/pages/index.html
-     
+
      open Index.html
 
-
    - Windows:
-     
+
      cd C:\path\pages\index.html
-     
+
      start Index.html
-     
 
 3. Ensure an internet connection so that external libraries like Leaflet load correctly.
